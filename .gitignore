@@ -1,0 +1,40 @@
+# --- Python Bytecode ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual Environment (Windows / Linux / Mac) ---
+env/
+venv/
+.qiskit_env/
+Include/
+Lib/
+Scripts/
+bin/
+share/
+pyvenv.cfg
+
+# --- Qiskit & Jupyter caches ---
+.ipynb_checkpoints/
+.qiskit/
+*.qasm~
+
+# --- Build / Packaging ---
+build/
+dist/
+*.egg-info/
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs / Outputs ---
+*.log
+*.out
+*.tmp
+
+# --- Editor-specific ---
+.vscode/
+.idea/
+
